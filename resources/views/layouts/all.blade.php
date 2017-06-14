@@ -50,16 +50,16 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav pr-0 l-nav">
                         <li class="nav-item active">
-                            <a class="nav-link grey-text text-darken-3" href="#">خانه<span class="sr-only">(current)</span></a>
+                            <a class="nav-link grey-text text-darken-3" href="{{url('/')}}">خانه<span class="sr-only">(current)</span></a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link grey-text text-darken-3" href="#">بسته پیشنهادی</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link grey-text text-darken-3" href="#">هتل ها</a>
+                            <a class="nav-link grey-text text-darken-3" href="{{url('hotels')}}">هتل ها</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link grey-text text-darken-3" href="#">حمل و نقل</a>
+                            <a class="nav-link grey-text text-darken-3" href="{{url('terminals')}}">حمل و نقل</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link grey-text text-darken-3" href="#">بلاگ</a>

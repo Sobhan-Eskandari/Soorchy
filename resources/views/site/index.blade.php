@@ -44,16 +44,16 @@
                             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                                 <ul class="navbar-nav pr-0">
                                     <li class="nav-item active">
-                                        <a class="nav-link" href="#">خانه<span class="sr-only">(current)</span></a>
+                                        <a class="nav-link" href="{{url('/')}}">خانه<span class="sr-only">(current)</span></a>
                                     </li>
                                     <li class="nav-item">
                                         <a class="nav-link" href="#">بسته پیشنهادی</a>
                                     </li>
                                     <li class="nav-item">
-                                        <a class="nav-link" href="#">هتل ها</a>
+                                        <a class="nav-link" href="{{url('/hotels')}}">هتل ها</a>
                                     </li>
                                     <li class="nav-item">
-                                        <a class="nav-link" href="#">حمل و نقل</a>
+                                        <a class="nav-link" href="{{url('terminals')}}">حمل و نقل</a>
                                     </li>
                                     <li class="nav-item">
                                         <a class="nav-link" href="#">بلاگ</a>

@@ -15,9 +15,7 @@ use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Mail;
 //use Illuminate\Support\Facades\Request;
 
-Route::get('/', function () {
-    return view('welcome');
-});
+
 
 Auth::routes();
 
@@ -139,25 +137,29 @@ Route::resource('/textboxio', 'TextboxioController');
 
 //--------------[ Site Routes ]--------------
 
-Route::get('/site/home', function (){
+Route::get('/', function () {
     return view('site.index');
 });
+
+//Route::get('/site/home', function (){
+//    return view('site.index');
+//});
 
 Route::get('/site/layout', function (){
     return view('layouts.site');
 });
 
-Route::get('/site/terminal', function (){
+Route::get('/terminal', function (){
     return view('site.terminal_detail');
 });
-Route::get('/site/terminals', function (){
+Route::get('/terminals', function (){
     return view('site.all_terminals');
 });
 
-Route::get('/site/hotel', function (){
+Route::get('/hotel', function (){
     return view('site.hotel_detail');
 });
-Route::get('/site/hotels', function (){
+Route::get('/hotels', function (){
     return view('site.all_hotels');
 });
 
