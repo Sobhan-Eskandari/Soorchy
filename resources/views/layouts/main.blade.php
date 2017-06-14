@@ -133,27 +133,37 @@
                     {{--============[ Posts Menu of dashboard ]===========--}}
                     <h5 role="tab" class="pt-2" id="posts" data-toggle="collapse" data-parent="#accordion" href="#postsMenu" aria-expanded="false" aria-controls="postsMenu">
                         <a class="Sidebar_menu_link">
-                            <i class="fa fa-chevron-left hi-fontSize-14" aria-hidden="true"></i>پست ها<i class="fa fa-pencil-square-o ml-4" aria-hidden="true"></i>
+                            <i class="fa fa-chevron-left hi-fontSize-14" aria-hidden="true"></i>ویلا ها<i class="fa fa-pencil-square-o ml-4" aria-hidden="true"></i>
                         </a>
                     </h5>
 
-                    <div id="postsMenu" class="collapse white-text" role="tabpanel" aria-labelledby="posts">
+                    <div id="postsMenu" class="collapse white-text @yield('posts')" role="tabpanel" aria-labelledby="posts">
                         <ul>
-                            <li class="subMenu">
-                                <a>همه پست ها</a>
+                            <a href="{{url('/posts')}}">
+                            <li class="subMenu ">
+               همه ویلا ها
                             </li>
+                            </a>
+                            <a href="{{url('villa/create')}}">
                             <li class="subMenu">
-                                <a>پست جدید</a>
+                                ویلای جدید
                             </li>
+                            </a>
+                            <a href="{{url('/posts/trash')}}">
                             <li class="subMenu">
-                                <a>پیش نویس ها</a>
+                                پیش نویس ها
                             </li>
+                            </a>
+                            <a href="{{url('category')}}">
                             <li class="subMenu">
-                                <a>دسته بندی ها</a>
+                                دسته بندی ها
                             </li>
+                            </a>
+                            <a href="{{url('/tag')}}">
                             <li class="subMenu">
-                                <a>تگ ها</a>
+                                تگ ها
                             </li>
+                            </a>
                             <li class="subMenu">
                                 <a>نسخه پشتیبانی</a>
                             </li>
@@ -220,7 +230,7 @@
 
                     {{--============[ Comments page of dashboard ]===========--}}
                     <h5 role="tab" class="pt-2" id="comments">
-                        <a class="Sidebar_menu_link" data-parent="#accordion" href="#comments">
+                        <a class="Sidebar_menu_link" data-parent="#accordion" href="{{url('/comments')}}">
                             <span class="badge badge-pill badge-default mr-2 countBadge">۷۳</span>نظرات<i class="fa fa-commenting-o ml-4" aria-hidden="true"></i>
                         </a>
                     </h5>

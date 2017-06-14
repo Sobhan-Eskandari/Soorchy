@@ -143,7 +143,7 @@
     <div class="col-12 col-md-4 push-md-8 push-lg-8 col-lg-3  mt-5">
 
         {{----------- [ Filter haie terminal ha ] -----------}}
-        @component('components.select-hotel-trans')
+        @component('components_site.select-hotel-trans')
 
             @slot('title')
                 انتخاب ترمینال

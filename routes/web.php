@@ -77,10 +77,10 @@ Route::get('/admins/trash', function () {
 });
 
 Route::get('/posts', function () {
-    return view('dashboard.posts.index');
+    return view('dashboard.posts.villa.index');
 });
 Route::get('/posts/trash', function () {
-    return view('dashboard.posts.trash');
+    return view('dashboard.posts.villa.trash');
 });
 
 

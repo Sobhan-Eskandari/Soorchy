@@ -162,3 +162,7 @@
     </section>
 
 @endsection
+
+@section('posts')
+    show
+    @endsection
