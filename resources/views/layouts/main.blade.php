@@ -125,7 +125,7 @@
 
                     {{--============[ Home Menu of dashboard ]===========--}}
                     <h5 role="tab" class="pt-2 mt-4" id="home">
-                        <a class="Sidebar_menu_link" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                        <a class="Sidebar_menu_link" data-toggle="collapse" data-parent="#accordion" href="{{url('/home')}}"  aria-expanded="false" aria-controls="collapseOne">
                             صفحه اول<i class="fa fa-tachometer ml-4" aria-hidden="true"></i>
                         </a>
                     </h5>
@@ -301,7 +301,7 @@
 
                     {{--============[ Backup Menu of dashboard ]===========--}}
                     <h5 role="tab" class="pt-3" id="backup">
-                        <a class="Sidebar_menu_link" data-parent="#accordion" href="{{url('backup')}}"><div class="sidebar-active">
+                        <a class="Sidebar_menu_link" data-parent="#accordion" href="{{url('backup')}}"><div class="@yield('backup')">
                                 پشتیبانی<i class="fa fa-download ml-4" aria-hidden="true"></i></div>
                         </a>
                     </h5>
