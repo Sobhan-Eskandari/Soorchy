@@ -101,3 +101,6 @@
 
 
 @endsection
+@section('posts')
+    show
+@endsection

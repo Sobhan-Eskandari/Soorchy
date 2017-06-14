@@ -29,7 +29,7 @@ Route::get('/profile', function () {
     return view('dashboard.admins.profile');
 });
 
-Route::get('/create', function () {
+Route::get('/createAdmin', function () {
     return view('dashboard.admins.create');
 });
 

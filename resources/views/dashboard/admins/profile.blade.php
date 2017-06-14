@@ -51,3 +51,9 @@
         </div>
     </div>
 @endsection
+@section('admins')
+    show
+@endsection
+@section('profile')
+    sidebar-active
+@endsection

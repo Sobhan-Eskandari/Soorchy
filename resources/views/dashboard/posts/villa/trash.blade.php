@@ -121,3 +121,9 @@
     </section>
 
 @endsection
+@section('posts')
+    show
+@endsection
+@section('trash')
+    sidebar-active
+@endsection

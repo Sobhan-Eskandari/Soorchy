@@ -77,3 +77,9 @@
 
     </section>
 @endsection
+@section('admins')
+    show
+@endsection
+@section('allAdmins')
+    sidebar-active
+@endsection

@@ -119,3 +119,9 @@
     </section>
 
 @endsection
+@section('users')
+    show
+@endsection
+@section('allUsers')
+    sidebar-active
+@endsection
