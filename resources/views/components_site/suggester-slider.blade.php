@@ -5,7 +5,7 @@
             <h3 class="dinar-title white-text mt-5">{{$title}}</h3>
             <div class="city-carousel" data-flickity>
 
-                @component('components.suggester-slider-card')
+                @component('components_site.suggester-slider-card')
 
                     @slot('card_title')
                         ترمینال رشت
@@ -13,7 +13,7 @@
 
                 @endcomponent
 
-                @component('components.suggester-slider-card')
+                @component('components_site.suggester-slider-card')
 
                     @slot('card_title')
                             ترمینال تهران
@@ -21,7 +21,7 @@
 
                 @endcomponent
 
-                @component('components.suggester-slider-card')
+                @component('components_site.suggester-slider-card')
 
                     @slot('card_title')
                         ترمینال اصفهان
@@ -29,7 +29,7 @@
 
                 @endcomponent
 
-                @component('components.suggester-slider-card')
+                @component('components_site.suggester-slider-card')
 
                     @slot('card_title')
                         ترمینال مشهد
@@ -37,7 +37,7 @@
 
                 @endcomponent
 
-                @component('components.suggester-slider-card')
+                @component('components_site.suggester-slider-card')
 
                     @slot('card_title')
                             ترمینال مشهد
@@ -45,7 +45,7 @@
 
                 @endcomponent
 
-                @component('components.suggester-slider-card')
+                @component('components_site.suggester-slider-card')
 
                     @slot('card_title')
                             ترمینال مشهد

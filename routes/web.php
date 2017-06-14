@@ -143,35 +143,31 @@ Route::get('/site/home', function (){
     return view('site.index');
 });
 
-Route::get('/layout', function (){
-    return view('layouts.main');
+Route::get('/site/layout', function (){
+    return view('layouts.site');
 });
 
-Route::get('/layout/hotels', function (){
-    return view('layouts.hotels');
-});
-
-Route::get('/terminal', function (){
+Route::get('/site/terminal', function (){
     return view('site.terminal_detail');
 });
-Route::get('/terminals', function (){
+Route::get('/site/terminals', function (){
     return view('site.all_terminals');
 });
 
-Route::get('/hotel', function (){
+Route::get('/site/hotel', function (){
     return view('site.hotel_detail');
 });
-Route::get('/hotels', function (){
+Route::get('/site/hotels', function (){
     return view('site.all_hotels');
 });
 
-Route::get('/package', function (){
+Route::get('/site/package', function (){
     return view('site.package_detail');
 });
-Route::get('/profile/password', function (){
+Route::get('/site/profile/password', function (){
     return view('site.profile.change_pass');
 });
 
-Route::get('/profile/edit', function (){
+Route::get('/site/profile/edit', function (){
     return view('site.profile.edit');
 });

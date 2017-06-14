@@ -13,7 +13,7 @@
     <link rel="stylesheet" href="{{ asset('Resources/css/Bootstrap/bootstrap.min.css') }}">
 
     <!-- Custom styles for this template -->
-    <link rel="stylesheet" href="{{ asset('css/application.css') }}">
+    <link rel="stylesheet" href="{{ asset('css_site/application.css') }}">
 
     <!-- Font Awesome -->
     <link rel="stylesheet" href="{{ asset('Resources/css/Font/font-awesome.min.css') }}">
@@ -90,7 +90,7 @@
     <div class="container hi-shadow-5 my-5">
         <div class="row">
             <div class="col-3 grey lighten-3 text-center">
-                <img class="img-fluid m-profileAvatar hi-shadow-3" src="{{asset('images/pro.png')}}">
+                <img class="img-fluid m-profileAvatar hi-shadow-3" src="{{asset('images_site/pro.png')}}">
 
                 <h4 class="dinar-title mt-4">فیهمه رفیعی</h4>
                 <p class="tosi-theme frab-title mt-3">fahim@gmail.com</p>
@@ -175,10 +175,10 @@
 
                 <!--******* Start of Logos of footer *******-->
                 <div class="Logo col-xl-1 push-xl-1 col-lg-2 col-md-4">
-                    <img class="img-fluid" src="{{ asset('images/logo.png') }}">
+                    <img class="img-fluid" src="{{ asset('images_site/logo.png') }}">
                 </div>
                 <div class="Logo col-xl-1 push-xl-1 col-lg-2 col-md-4">
-                    <img class="img-fluid" src="{{ asset('images/logosamandehi.png') }}">
+                    <img class="img-fluid" src="{{ asset('images_site/logosamandehi.png') }}">
                 </div>
                 <div class="Logo col-xl-2 text-left push-xl-1 col-lg-2 col-md-4">
                     {{--<img class="img-fluid p-2" src="{{ asset('images/horoofnegar.png') }}">--}}

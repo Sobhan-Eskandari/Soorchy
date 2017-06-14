@@ -10,11 +10,11 @@
                     <h3 id="main" class="dinar-title">هتل ستارگان</h3>
                 </div>
                 <div class="col-8 col-md-3 col-lg-auto">
-                    <img class="img-fluid" src="{{asset('images/stars.png')}}">
+                    <img class="img-fluid" src="{{asset('images_site/stars.png')}}">
                 </div>
                 <div class="col-4 col-md-3 col-xl-2 pull-xl-4 pull-lg-2 mr-lg-3 mr-md-2 mr-xl-0 pull-md-1">
                     <div>
-                        <img class="img-fluid off_ribbon"  src="{{asset('images/ribbon.png')}}">
+                        <img class="img-fluid off_ribbon"  src="{{asset('images_site/ribbon.png')}}">
                         <h2 class="off-percentage" >۲۳٪ تخفیف</h2>
                     </div>
                 </div>
@@ -62,24 +62,24 @@
             <h4  class="sormeie-theme text-center mt-5" id="featuresSection">امکانات</h4>
             <div class="row mt-4">
                 <div class="col-6 col-md-4 col-lg-3 pull-lg-2 text-right">
-                    <p><img class="m-features-icon" src="{{asset('images/checked.png')}}">خشک شویی</p>
-                    <p><img class="m-features-icon" src="{{asset('images/checked.png')}}">مبلمان</p>
-                    <p><img class="m-features-icon" src="{{asset('images/checked.png')}}">سیستم تهویه</p>
-                    <p><img class="m-features-icon" src="{{asset('images/checked.png')}}">سرویس غذا</p>
+                    <p><img class="m-features-icon" src="{{asset('images_site/checked.png')}}">خشک شویی</p>
+                    <p><img class="m-features-icon" src="{{asset('images_site/checked.png')}}">مبلمان</p>
+                    <p><img class="m-features-icon" src="{{asset('images_site/checked.png')}}">سیستم تهویه</p>
+                    <p><img class="m-features-icon" src="{{asset('images_site/checked.png')}}">سرویس غذا</p>
                 </div>
 
                 <div class="col-6 col-md-4 col-lg-3 pull-lg-2 text-right">
-                    <p><img class="m-features-icon" src="{{asset('images/checked.png')}}">خشک شویی</p>
-                    <p><img class="m-features-icon" src="{{asset('images/checked.png')}}">مبلمان</p>
-                    <p><img class="m-features-icon" src="{{asset('images/checked.png')}}">سیستم تهویه</p>
-                    <p><img class="m-features-icon" src="{{asset('images/checked.png')}}">سرویس غذا</p>
+                    <p><img class="m-features-icon" src="{{asset('images_site/checked.png')}}">خشک شویی</p>
+                    <p><img class="m-features-icon" src="{{asset('images_site/checked.png')}}">مبلمان</p>
+                    <p><img class="m-features-icon" src="{{asset('images_site/checked.png')}}">سیستم تهویه</p>
+                    <p><img class="m-features-icon" src="{{asset('images_site/checked.png')}}">سرویس غذا</p>
                 </div>
 
                 <div class="col-6 col-md-4 col-lg-3 pull-lg-2 text-right">
-                    <p><img class="m-features-icon" src="{{asset('images/checked.png')}}">خشک شویی</p>
-                    <p><img class="m-features-icon" src="{{asset('images/checked.png')}}">مبلمان</p>
-                    <p><img class="m-features-icon" src="{{asset('images/checked.png')}}">سیستم تهویه</p>
-                    <p><img class="m-features-icon" src="{{asset('images/checked.png')}}">سرویس غذا</p>
+                    <p><img class="m-features-icon" src="{{asset('images_site/checked.png')}}">خشک شویی</p>
+                    <p><img class="m-features-icon" src="{{asset('images_site/checked.png')}}">مبلمان</p>
+                    <p><img class="m-features-icon" src="{{asset('images_site/checked.png')}}">سیستم تهویه</p>
+                    <p><img class="m-features-icon" src="{{asset('images_site/checked.png')}}">سرویس غذا</p>
                 </div>
             </div>
 
@@ -145,7 +145,7 @@
                 {{----------- [ Ticket ] -----------}}
                 <div class="row mt-5">
                     <div class="col-4">
-                        <img class="img-fluid" src="{{asset('images/pic3.jpg')}}">
+                        <img class="img-fluid" src="{{asset('images_site/pic3.jpg')}}">
                     </div>
                     <div class="col-8">
 
@@ -164,15 +164,15 @@
                         <hr class="line-theme">
                         <div class="row">
                             <div class="col-6 text-right">
-                                <p class="my-1"><img class="m-features-icon" src="{{asset('images/checked.png')}}">خشک شویی</p>
-                                <p class="my-1"><img class="m-features-icon" src="{{asset('images/checked.png')}}">مبلمان</p>
-                                <p class="my-1"><img class="m-features-icon" src="{{asset('images/checked.png')}}">سیستم تهویه</p>
+                                <p class="my-1"><img class="m-features-icon" src="{{asset('images_site/checked.png')}}">خشک شویی</p>
+                                <p class="my-1"><img class="m-features-icon" src="{{asset('images_site/checked.png')}}">مبلمان</p>
+                                <p class="my-1"><img class="m-features-icon" src="{{asset('images_site/checked.png')}}">سیستم تهویه</p>
                             </div>
 
                             <div class="col-6 text-right">
-                                <p class="my-1"><img class="m-features-icon" src="{{asset('images/checked.png')}}">خشک شویی</p>
-                                <p class="my-1"><img class="m-features-icon" src="{{asset('images/checked.png')}}">مبلمان</p>
-                                <p class="my-1"><img class="m-features-icon" src="{{asset('images/checked.png')}}">سیستم تهویه</p>
+                                <p class="my-1"><img class="m-features-icon" src="{{asset('images_site/checked.png')}}">خشک شویی</p>
+                                <p class="my-1"><img class="m-features-icon" src="{{asset('images_site/checked.png')}}">مبلمان</p>
+                                <p class="my-1"><img class="m-features-icon" src="{{asset('images_site/checked.png')}}">سیستم تهویه</p>
                             </div>
                         </div>
                     </div>
@@ -201,7 +201,7 @@
                 @for($i = 0; $i < 4; $i++)
                 <div class="row px-0">
                     <div class="col-4 px-0">
-                        <img class="img-fluid" src="{{asset('images/pic4.jpg')}}">
+                        <img class="img-fluid" src="{{asset('images_site/pic4.jpg')}}">
                     </div>
                     <div class="col-8 pr-2 pl-0 pt-2">
                         <p class="hi-fontSize-13">هتل ستارگان</p>
@@ -229,31 +229,31 @@
 
         <div class="l-stickyMover">
             <a data-scroll href="#main">
-                <button class="m-btn-moveSection px-3 py-3"><img class="img-fluid" src="{{asset('images/hotel.png')}}"></button>
+                <button class="m-btn-moveSection px-3 py-3 hi-shadow-0"><img class="img-fluid" src="{{asset('images_site/hotel.png')}}"></button>
                 <p class="hi-fontSize-11 mb-1"><b>مشخصات هتل</b></p>
                 <hr class="line-theme my-0">
             </a>
 
             <a data-scroll href="#detailsSection">
-                <button class="m-btn-moveSection px-4 pt-4 pb-2"><img class="img-fluid" src="{{asset('images/center-text.png')}}"></button>
+                <button class="m-btn-moveSection px-4 pt-4 pb-2 hi-shadow-0"><img class="img-fluid" src="{{asset('images_site/center-text.png')}}"></button>
                 <p class="hi-fontSize-11 mb-1"><b>توضیحات</b></p>
                 <hr class="line-theme my-0">
             </a>
 
             <a data-scroll href="#featuresSection">
-                <button class="m-btn-moveSection px-4 pt-4 pb-2"><img class="img-fluid" src="{{asset('images/sofa.png')}}"></button>
+                <button class="m-btn-moveSection px-4 pt-4 pb-2 hi-shadow-0"><img class="img-fluid" src="{{asset('images_site/sofa.png')}}"></button>
                 <p class="hi-fontSize-11 mb-1"><b>امکانات</b></p>
                 <hr class="line-theme my-0">
             </a>
 
             <a data-scroll href="#google-map">
-                <button class="m-btn-moveSection px-4 pt-4 pb-2"><img class="img-fluid" src="{{asset('images/pin-on-a-paper.png')}}"></button>
+                <button class="m-btn-moveSection px-4 pt-4 pb-2 hi-shadow-0"><img class="img-fluid" src="{{asset('images_site/pin-on-a-paper.png')}}"></button>
                 <p class="hi-fontSize-11 mb-1"><b>مکان روی نقشه</b></p>
                 <hr class="line-theme my-0">
             </a>
 
             <a data-scroll href="#ticketsSection">
-                <button class="m-btn-moveSection px-3 pt-4 pb-1"><img class="img-fluid" src="{{asset('images/bed2.png')}}"></button>
+                <button class="m-btn-moveSection px-3 pt-4 pb-1 hi-shadow-0"><img class="img-fluid" src="{{asset('images_site/bed2.png')}}"></button>
                 <p class="hi-fontSize-11 mb-1"><b>لیست بلیط</b></p>
                 <hr class="line-theme my-0">
             </a>

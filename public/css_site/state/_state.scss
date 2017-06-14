@@ -22,3 +22,7 @@
   color: white;
   outline: none;
 }
+
+button:focus,a:focus{
+  outline: none !important;
+}

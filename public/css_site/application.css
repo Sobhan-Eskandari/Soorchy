@@ -68,7 +68,7 @@ a {
   height: 50% !important; }
 
 .l-cities {
-  background: url("../../public/images/blur.jpg");
+  background: url("../../public/images_site/blur.jpg");
   background-size: cover; }
 
 .l-transOverFlow {
@@ -344,6 +344,9 @@ a {
   background-color: #082845;
   color: white;
   outline: none; }
+
+button:focus, a:focus {
+  outline: none !important; }
 
 .btn-flat-theme {
   background-color: #42b574;
