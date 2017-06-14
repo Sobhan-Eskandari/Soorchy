@@ -12,7 +12,7 @@
     <link rel="stylesheet" href="{{ asset('Resources/css/Bootstrap/bootstrap.min.css') }}">
 
     <!-- Custom styles for this template -->
-    <link rel="stylesheet" href="{{ asset('css/application.css') }}">
+    <link rel="stylesheet" href="{{ asset('css_site/application.css') }}">
 
     <!-- Font Awesome -->
     <link rel="stylesheet" href="{{ asset('Resources/css/Font/font-awesome.min.css') }}">
@@ -37,7 +37,7 @@
             <!---------- Logo ---------->
             <div class="row">
                 <div class="col-12 text-center">
-                    <img class="img-fluid header-logo" src="{{asset('images/soorchy_logo.png')}}">
+                    <img class="img-fluid header-logo" src="{{asset('images_site/soorchy_logo.png')}}">
                 </div>
             </div>
 
@@ -150,13 +150,13 @@
 
                 <!--******* Start of Logos of footer *******-->
                 <div class="Logo col-xl-1 push-xl-1 col-lg-2 col-md-4">
-                    <img class="img-fluid" src="{{ asset('images/logo.png') }}">
+                    <img class="img-fluid" src="{{ asset('images_site/logo.png') }}">
                 </div>
                 <div class="Logo col-xl-1 push-xl-1 col-lg-2 col-md-4">
-                    <img class="img-fluid" src="{{ asset('images/logosamandehi.png') }}">
+                    <img class="img-fluid" src="{{ asset('images_site/logosamandehi.png') }}">
                 </div>
                 <div class="Logo col-xl-2 text-left push-xl-1 col-lg-2 col-md-4">
-                    {{--<img class="img-fluid p-2" src="{{ asset('images/horoofnegar.png') }}">--}}
+                    {{--<img class="img-fluid p-2" src="{{ asset('images_site/horoofnegar.png') }}">--}}
                 </div>
                 <!--******** End of Logos of footer ********-->
 
@@ -260,7 +260,7 @@
 
                         <div class="row mt-5 mb-3">
                             <div class="col-6 text-left">
-                                <img class="img-fluid hi-size-9" src="{{asset('images/manager.png')}}">
+                                <img class="img-fluid hi-size-9" src="{{asset('images_site/manager.png')}}">
                                 <div class="pure-radiobutton mt-3 ml-4 pl-3">
                                     <input id="radio2" name="radio" type="radio" class="radio" checked="checked">
                                     <label for="radio2"></label>
@@ -268,7 +268,7 @@
                             </div>
 
                             <div class="col-6">
-                                <img class="img-fluid hi-size-9" src="{{asset('images/woman.png')}}">
+                                <img class="img-fluid hi-size-9" src="{{asset('images_site/woman.png')}}">
                                 <div class="pure-radiobutton mr-3 mt-3">
                                     <input id="radio1" name="radio" type="radio" class="radio" checked="checked">
                                     <label for="radio1"></label>

@@ -12,7 +12,7 @@
     <link rel="stylesheet" href="{{ asset('Resources/css/Bootstrap/bootstrap.min.css') }}">
 
     <!-- Custom styles for this template -->
-    <link rel="stylesheet" href="{{ asset('css/application.css') }}">
+    <link rel="stylesheet" href="{{ asset('css_site/application.css') }}">
 
     <!-- Font Awesome -->
     <link rel="stylesheet" href="{{ asset('Resources/css/Font/font-awesome.min.css') }}">
@@ -37,7 +37,7 @@
             <!---------- Logo ---------->
             <div class="row">
                 <div class="col-12 text-center">
-                    <img class="img-fluid header-logo" src="{{asset('images/soorchy_logo.png')}}">
+                    <img class="img-fluid header-logo" src="{{asset('images_site/soorchy_logo.png')}}">
                 </div>
             </div>
 
@@ -86,7 +86,7 @@
     {{-- =========[ End of Nav Bar ]======== --}}
 </div>
 
-@component('components.suggester-slider')
+@component('components_site.suggester-slider')
     @slot('title')
         @yield('suggestionSlider_title')
     @endslot
@@ -99,7 +99,7 @@
                 {{----------- [ Filter haie Hotel ha ] -----------}}
                 <div class="col-12">
 
-                    @component('components.select-hotel-trans')
+                    @component('components_site.select-hotel-trans')
                         @slot('title')
                             انتخاب هتل
                         @endslot
@@ -109,7 +109,7 @@
                     <div class="m-card text-center mb-4">
                         <p class="mb-4 sormeie-theme text-center">مشاهده هتل ها بر اساس ستاره</p>
 
-                        <img class="img-fluid m-filter-star" src="{{asset('images/starts.png')}}">
+                        <img class="img-fluid m-filter-star" src="{{asset('images_site/starts.png')}}">
 
                         <div class="pure-radiobutton mt-3 text-right">
                             <input id="radio2" name="radio" type="radio" class="radio mt-2" checked="checked">
@@ -173,10 +173,10 @@
                 <div class="col-lg-2 pull-lg-1 col-md-2 col-2">
                     <div class="row mt-3">
                         <div class="col-lg-5 pull-lg-3 col-md-6 px-2 px-lg-3 col-6">
-                            <img class="img-fluid" src="{{asset('images/grid.png')}}">
+                            <img class="img-fluid" src="{{asset('images_site/grid.png')}}">
                         </div>
                         <div class="col-lg-5 pull-lg-3 col-md-6 px-2 px-lg-3 col-6">
-                            <img class="img-fluid" src="{{asset('images/list.jpg')}}">
+                            <img class="img-fluid" src="{{asset('images_site/list.jpg')}}">
                         </div>
                     </div>
 
@@ -268,10 +268,10 @@
 
                 <!--******* Start of Logos of footer *******-->
                 <div class="Logo col-xl-1 push-xl-1 col-lg-2 col-md-4">
-                    <img class="img-fluid" src="{{ asset('images/logo.png') }}">
+                    <img class="img-fluid" src="{{ asset('images_site/logo.png') }}">
                 </div>
                 <div class="Logo col-xl-1 push-xl-1 col-lg-2 col-md-4">
-                    <img class="img-fluid" src="{{ asset('images/logosamandehi.png') }}">
+                    <img class="img-fluid" src="{{ asset('images_site/logosamandehi.png') }}">
                 </div>
                 <div class="Logo col-xl-2 text-left push-xl-1 col-lg-2 col-md-4">
                     {{--<img class="img-fluid p-2" src="{{ asset('images/horoofnegar.png') }}">--}}
@@ -378,7 +378,7 @@
 
                         <div class="row mt-5 mb-3">
                             <div class="col-6 text-left">
-                                <img class="img-fluid hi-size-9" src="{{asset('images/manager.png')}}">
+                                <img class="img-fluid hi-size-9" src="{{asset('images_site/manager.png')}}">
                                 <div class="pure-radiobutton mt-3 ml-4 pl-3">
                                     <input id="radio2" name="radio" type="radio" class="radio" checked="checked">
                                     <label for="radio2"></label>
@@ -386,7 +386,7 @@
                             </div>
 
                             <div class="col-6">
-                                <img class="img-fluid hi-size-9" src="{{asset('images/woman.png')}}">
+                                <img class="img-fluid hi-size-9" src="{{asset('images_site/woman.png')}}">
                                 <div class="pure-radiobutton mr-3 mt-3">
                                     <input id="radio1" name="radio" type="radio" class="radio" checked="checked">
                                     <label for="radio1"></label>

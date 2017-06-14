@@ -11,7 +11,7 @@
                 </div>
                 <div class="col-4 col-md-3 col-lg-2">
                     <div>
-                        <img class="img-fluid off_ribbon"  src="{{asset('images/ribbon.png')}}">
+                        <img class="img-fluid off_ribbon"  src="{{asset('images_site/ribbon.png')}}">
                         <h2 class="off-percentage" >۲۳٪ تخفیف</h2>
                     </div>
                 </div>
@@ -103,7 +103,7 @@
                 {{----------- [ Ticket ] -----------}}
                 <div class="row mt-5">
                     <div class="col-4">
-                        <img class="img-fluid" src="{{asset('images/pic5.jpg')}}">
+                        <img class="img-fluid" src="{{asset('images_site/pic5.jpg')}}">
                     </div>
                     <div class="col-8">
                         <h1 class="hi-fontSize-20 sormeie-theme mt-3">اتوبوس VIP</h1>
@@ -160,7 +160,7 @@
                 @for($i = 0; $i < 4; $i++)
                 <div class="row px-0">
                     <div class="col-4 px-0">
-                        <img class="img-fluid" src="{{asset('images/pic5.jpg')}}">
+                        <img class="img-fluid" src="{{asset('images_site/pic5.jpg')}}">
                     </div>
                     <div class="col-8 pr-2 pl-0 pt-2">
                         <p class="hi-fontSize-13">ترمینال سیر و سفر</p>
@@ -188,25 +188,25 @@
 
         <div class="l-stickyMover">
             <a data-scroll href="#main">
-                <button class="m-btn-moveSection px-3 py-3"><img class="img-fluid" src="{{asset('images/hotel.png')}}"></button>
+                <button class="m-btn-moveSection px-3 py-3 hi-shadow-0"><img class="img-fluid" src="{{asset('images_site/hotel.png')}}"></button>
                 <p class="hi-fontSize-11 mb-1"><b>مشخصات ترمینال</b></p>
                 <hr class="line-theme my-0">
             </a>
 
             <a data-scroll href="#detailsSection">
-                <button class="m-btn-moveSection px-4 pt-4 pb-2"><img class="img-fluid" src="{{asset('images/center-text.png')}}"></button>
+                <button class="m-btn-moveSection px-4 pt-4 pb-2 hi-shadow-0"><img class="img-fluid" src="{{asset('images_site/center-text.png')}}"></button>
                 <p class="hi-fontSize-11 mb-1"><b>توضیحات</b></p>
                 <hr class="line-theme my-0">
             </a>
 
             <a data-scroll href="#google-map">
-                <button class="m-btn-moveSection px-4 pt-4 pb-2"><img class="img-fluid" src="{{asset('images/pin-on-a-paper.png')}}"></button>
+                <button class="m-btn-moveSection px-4 pt-4 pb-2 hi-shadow-0"><img class="img-fluid" src="{{asset('images_site/pin-on-a-paper.png')}}"></button>
                 <p class="hi-fontSize-11 mb-1"><b>مکان روی نقشه</b></p>
                 <hr class="line-theme my-0">
             </a>
 
             <a data-scroll href="#ticketsSection">
-                <button class="m-btn-moveSection px-3 pt-4 pb-1"><img class="img-fluid" src="{{asset('images/bus2.png')}}"></button>
+                <button class="m-btn-moveSection px-3 pt-4 pb-1 hi-shadow-0"><img class="img-fluid" src="{{asset('images_site/bus2.png')}}"></button>
                 <p class="hi-fontSize-11 mb-1"><b>لیست بلیط</b></p>
                 <hr class="line-theme my-0">
             </a>
