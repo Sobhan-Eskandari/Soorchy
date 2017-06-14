@@ -13,7 +13,7 @@
             <div class="col-12 bgCard hi-shadow-2">
                 <div class="container-fluid">
 
-                    {{--==========[ Row of buttons abpve table ]========= --}}
+                    {{--==========[ Row of buttons above table ]========= --}}
                     <div class="row">
                         <div class="col-1 pl-0">
                             <button class="hi-button-btn1 orange darken-2 hi-shadow-1 hi-size-4">

@@ -5348,7 +5348,7 @@ class wsdl extends nusoap_base {
 
 		$b = '
 		<html><head><title>NuSOAP: '.$this->serviceName.'</title>
-		<style type="text/css">
+		<style type="text/css_dashboard">
 		    body    { font-family: arial; color: #000000; background-color: #ffffff; margin: 0px 0px 0px 0px; }
 		    p       { font-family: arial; color: #000000; margin-top: 0px; margin-bottom: 12px; }
 		    pre { background-color: silver; padding: 5px; font-family: Courier New; font-size: x-small; color: #000000;}
@@ -5397,8 +5397,8 @@ class wsdl extends nusoap_base {
 		function makeObj(obj){
 		    this.evnt=bw.dom? document.getElementById(obj):bw.ie4?document.all[obj]:bw.ns4?document.layers[obj]:0;
 		    if(!this.evnt) return false
-		    this.css=bw.dom||bw.ie4?this.evnt.style:bw.ns4?this.evnt:0;
-		    this.wref=bw.dom||bw.ie4?this.evnt:bw.ns4?this.css.document:0;
+		    this.css_dashboard=bw.dom||bw.ie4?this.evnt.style:bw.ns4?this.evnt:0;
+		    this.wref=bw.dom||bw.ie4?this.evnt:bw.ns4?this.css_dashboard.document:0;
 		    this.writeIt=b_writeIt;
 		    return this
 		}
@@ -5412,11 +5412,11 @@ class wsdl extends nusoap_base {
 		var oDesc;
 		function popup(divid){
 		    if(oDesc = new makeObj(divid)){
-			oDesc.css.visibility = "visible"
+			oDesc.css_dashboard.visibility = "visible"
 		    }
 		}
 		function popout(){ // Hides message
-		    if(oDesc) oDesc.css.visibility = "hidden"
+		    if(oDesc) oDesc.css_dashboard.visibility = "hidden"
 		}
 		//-->
 		</script>

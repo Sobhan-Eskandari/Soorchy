@@ -13,7 +13,7 @@
     <link rel="stylesheet" href="{{ asset('Resources/css/Bootstrap/bootstrap.min.css') }}">
 
     <!-- Custom styles for this template -->
-    <link rel="stylesheet" href="{{ asset('css/application.css') }}">
+    <link rel="stylesheet" href="{{ asset('css_dashboard/application.css') }}">
 
     <!-- Font Awesome -->
     <link rel="stylesheet" href="{{ asset('Resources/css/Font/font-awesome.min.css') }}">

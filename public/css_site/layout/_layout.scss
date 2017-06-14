@@ -1,0 +1,42 @@
+.l-header{
+  background-color: white;
+}
+.l-nav{
+  border-bottom: none !important;
+}
+
+.l-stickyMover{
+  position: fixed;
+  width: 80px;
+}
+
+.l-profile{
+  margin-top: -550px;
+}
+
+.l-profile-imageHeader{
+  height: 50% !important;
+}
+.l-cities{
+  background: url("../../public/images/blur.jpg");
+  background-size: cover;
+}
+.l-transOverFlow{
+  margin-top: -40px;
+  background-color: rgba(0,0,0,0.6);
+  margin-right: 0px;
+  margin-left:  0px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+.l-autoHeight{
+  height:  auto !important;
+}
+.l-stars{
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  top: 5px;
+}

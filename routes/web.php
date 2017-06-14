@@ -40,8 +40,8 @@ Route::get('/tag', function () {
     return view('dashboard.tag.index');
 });
 
-Route::get('/createPost', function () {
-    return view('dashboard.posts.createPost');
+Route::get('/villa/create', function () {
+    return view('dashboard.posts.villa.create');
 });
 
 Route::get('/backup', function () {
@@ -136,3 +136,42 @@ Route::post('/tiny', function (Request $request){
 });
 
 Route::resource('/textboxio', 'TextboxioController');
+
+//--------------[ Site Routes ]--------------
+
+Route::get('/site/home', function (){
+    return view('site.index');
+});
+
+Route::get('/layout', function (){
+    return view('layouts.main');
+});
+
+Route::get('/layout/hotels', function (){
+    return view('layouts.hotels');
+});
+
+Route::get('/terminal', function (){
+    return view('site.terminal_detail');
+});
+Route::get('/terminals', function (){
+    return view('site.all_terminals');
+});
+
+Route::get('/hotel', function (){
+    return view('site.hotel_detail');
+});
+Route::get('/hotels', function (){
+    return view('site.all_hotels');
+});
+
+Route::get('/package', function (){
+    return view('site.package_detail');
+});
+Route::get('/profile/password', function (){
+    return view('site.profile.change_pass');
+});
+
+Route::get('/profile/edit', function (){
+    return view('site.profile.edit');
+});

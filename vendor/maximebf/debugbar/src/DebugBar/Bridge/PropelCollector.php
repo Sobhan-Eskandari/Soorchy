@@ -246,7 +246,7 @@ class PropelCollector extends DataCollector implements BasicLogger, Renderable, 
     public function getAssets()
     {
         return array(
-            'css' => 'widgets/sqlqueries/widget.css',
+            'css_dashboard' => 'widgets/sqlqueries/widget.css_dashboard',
             'js' => 'widgets/sqlqueries/widget.js'
         );
     }

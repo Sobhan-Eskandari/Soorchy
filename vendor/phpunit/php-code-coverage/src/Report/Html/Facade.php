@@ -126,10 +126,10 @@ class Facade
      */
     private function copyFiles($target)
     {
-        $dir = $this->getDirectory($target . 'css');
-        copy($this->templatePath . 'css/bootstrap.min.css', $dir . 'bootstrap.min.css');
-        copy($this->templatePath . 'css/nv.d3.min.css', $dir . 'nv.d3.min.css');
-        copy($this->templatePath . 'css/style.css', $dir . 'style.css');
+        $dir = $this->getDirectory($target . 'css_dashboard');
+        copy($this->templatePath . 'css_dashboard/bootstrap.min.css_dashboard', $dir . 'bootstrap.min.css_dashboard');
+        copy($this->templatePath . 'css_dashboard/nv.d3.min.css_dashboard', $dir . 'nv.d3.min.css_dashboard');
+        copy($this->templatePath . 'css_dashboard/style.css_dashboard', $dir . 'style.css_dashboard');
 
         $dir = $this->getDirectory($target . 'fonts');
         copy($this->templatePath . 'fonts/glyphicons-halflings-regular.eot', $dir . 'glyphicons-halflings-regular.eot');

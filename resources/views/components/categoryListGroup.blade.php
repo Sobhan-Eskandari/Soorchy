@@ -69,7 +69,14 @@
             <i class="fa fa-times" aria-hidden="true"></i>
         </li>
         <li class="list-group-item categoryListGroupButton">
-            <h6 class="text-center">new category - sobhan</h6>
+            <form class="form-inline TodoWidget ltr-direction my-2">
+                <label class="sr-only" for="inlineFormInputGroup">new note</label>
+                <div class="input-group" id="addTodo">
+                    <button type="button" id="addTodo_addBtn"><img class="img-fluid" src="{{asset('images/Add-icone.png')}}"></button>
+                    <input type="text" class="form-control" id="todoText" placeholder="{{$category_btn}} جدید">
+                </div>
+                <button type="submit" id="hiddenSubmitBtn">Sign in</button>
+            </form>
         </li>
     </div>
 </ul>

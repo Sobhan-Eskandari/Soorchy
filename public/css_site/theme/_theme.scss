@@ -1,0 +1,63 @@
+.btn-flat-theme{
+  background-color: $sabz;
+  color: white;
+  border: transparent;
+}
+
+.btn-round-theme{
+  background-color: transparent;
+  color: $sabz;
+  border: 2px solid $sabz;
+}
+
+.btn-round-filled-theme{
+  background-color: $sabz;
+  color: white;
+  border: 2px solid $sabz;
+}
+
+.sormeie-theme{
+  color: $sormeie;
+}
+.sormeie-bc-theme{
+  background-color: $sormeie;
+}
+.tosi-theme{
+  color: $tosi;
+}
+.khakestari-bc-theme{
+  background-color: $khakestarie-roshan !important;
+}
+.line-theme{
+  border-top: 1px solid $tosi-roshan;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.dottedLine-theme{
+  border-top: 3px dotted $sormeie;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.borderBottom-theme{
+  border-bottom: 1px solid $tosi-roshan;
+}
+.border-theme{
+  border: 1px solid $sormeie;
+}
+
+.dinar-title{
+  font-family: 'Dinar_medium' !important;
+  color: $sormeie-tire;
+}
+
+.frab-title{
+  font-family: 'Frabk' !important;
+}
+
+.terminal-info{
+  margin-top: 20px;
+  line-height: 45px;
+  padding-right: 30px;
+  padding-left: 30px;
+}
