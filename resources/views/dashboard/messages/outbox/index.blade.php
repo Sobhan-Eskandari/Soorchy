@@ -127,3 +127,9 @@
     </section>
 
 @endsection
+@section('messages')
+    show
+@endsection
+@section('outbox')
+    sidebar-active
+@endsection

@@ -604,3 +604,6 @@
     <script src="{{ asset('js/moment.min.js') }}"></script>
     <script src="{{ asset('js/clock.js') }}"></script>
 @endsection
+@section('home')
+    sidebar-active
+@endsection

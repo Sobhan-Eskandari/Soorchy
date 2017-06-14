@@ -166,3 +166,6 @@
 @section('posts')
     show
     @endsection
+@section('allVilla')
+    sidebar-active
+    @endsection

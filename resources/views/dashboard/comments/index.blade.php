@@ -136,3 +136,6 @@
     </section>
 
 @endsection
+@section('comments')
+    sidebar-active
+    @endsection

@@ -224,3 +224,9 @@
     <script src="{{ asset('Hi_Framework/javascript/other/dropzone.js') }}"></script>
 
 @endsection
+@section('settings')
+    show
+@endsection
+@section('settingsIndex')
+    sidebar-active
+@endsection

@@ -123,7 +123,7 @@
 
                     {{--============[ Home Menu of dashboard ]===========--}}
                     <h5 role="tab" class="pt-2 mt-4" id="home">
-                        <a class="Sidebar_menu_link" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                        <a class="Sidebar_menu_link" data-toggle="collapse" data-parent="#accordion" href="{{url('/home')}}"  aria-expanded="false" aria-controls="collapseOne">
                             صفحه اول<i class="fa fa-tachometer ml-4" aria-hidden="true"></i>
                         </a>
                     </h5>
@@ -138,17 +138,17 @@
                     <div id="postsMenu" class="collapse white-text @yield('posts')" role="tabpanel" aria-labelledby="posts">
                         <ul>
                             <a href="{{url('/posts')}}">
-                            <li class="subMenu ">
+                            <li class="subMenu @yield('allVilla')">
                همه ویلا ها
                             </li>
                             </a>
                             <a href="{{url('villa/create')}}">
-                            <li class="subMenu">
+                            <li class="subMenu @yield('createVilla')">
                                 ویلای جدید
                             </li>
                             </a>
                             <a href="{{url('/posts/trash')}}">
-                            <li class="subMenu">
+                            <li class="subMenu @yield('trash')">
                                 پیش نویس ها
                             </li>
                             </a>
@@ -176,12 +176,12 @@
                         </a>
                     </h5>
 
-                    <div id="galleryMenu" class="collapse white-text" role="tabpanel" aria-labelledby="gallery">
+                    <div id="galleryMenu" class="collapse white-text @yield('files')" role="tabpanel" aria-labelledby="gallery">
                         <ul>
-                            <li class="subMenu">
+                            <li class="subMenu @yield('allFiles')">
                                 <a>همه فایل ها</a>
                             </li>
-                            <li class="subMenu">
+                            <li class="subMenu @yield('newFiles')">
                                 <a>فایل جدید</a>
                             </li>
                         </ul>
@@ -194,14 +194,18 @@
                         </a>
                     </h5>
 
-                    <div id="messagesMenu" class="collapse white-text" role="tabpanel" aria-labelledby="messages">
+                    <div id="messagesMenu" class="collapse white-text  @yield('messages')" role="tabpanel" aria-labelledby="messages">
                         <ul>
-                            <li class="subMenu">
-                                <a>صندوق ورودی</a>
+                            <a href="{{url('/messages/inbox')}}">
+                            <li class="subMenu @yield('inbox')">
+                                صندوق ورودی
                             </li>
-                            <li class="subMenu">
-                                <a>صندوق خروجی</a>
+                            </a>
+                            <a href="{{url('/messages/outbox')}}">
+                            <li class="subMenu @yield('outbox')">
+                                صندوق خروجی
                             </li>
+                            </a>
                         </ul>
                     </div>
 
@@ -212,11 +216,13 @@
                         </a>
                     </h5>
 
-                    <div id="usersMenu" class="collapse white-text" role="tabpanel" aria-labelledby="users">
+                    <div id="usersMenu" class="collapse white-text @yield('users')" role="tabpanel" aria-labelledby="users">
                         <ul>
-                            <li class="subMenu">
-                                <a>همه کاربران</a>
+                            <a href="{{url('/users')}}">
+                            <li class="subMenu @yield('allUsers')">
+                                همه کاربران
                             </li>
+                            </a>
                             <li class="subMenu">
                                 <a>کاربر جدید</a>
                             </li>
@@ -229,8 +235,11 @@
                     {{--============[ Comments page of dashboard ]===========--}}
                     <h5 role="tab" class="pt-2" id="comments">
                         <a class="Sidebar_menu_link" data-parent="#accordion" href="{{url('/comments')}}">
+                            <div class="@yield('comments')">
                             <span class="badge badge-pill badge-default mr-2 countBadge">۷۳</span>نظرات<i class="fa fa-commenting-o ml-4" aria-hidden="true"></i>
+                        </div>
                         </a>
+
                     </h5>
                     {{--============[ Admin Menu of dashboard ]===========--}}
                     <h5 role="tab" class="pt-2" id="admins" data-toggle="collapse" data-parent="#accordion" href="#adminsMenu" aria-expanded="false" aria-controls="adminsMenu">
@@ -238,17 +247,23 @@
                             <i class="fa fa-chevron-left hi-fontSize-14" aria-hidden="true"></i>مدیران<i class="fa fa-user-circle-o ml-4" aria-hidden="true"></i>
                         </a>
                     </h5>
-                    <div id="adminsMenu" class="collapse white-text" role="tabpanel" aria-labelledby="admins">
+                    <div id="adminsMenu" class="collapse white-text @yield('admins')" role="tabpanel" aria-labelledby="admins">
                         <ul>
-                            <li class="subMenu">
-                                <a>همه مدیران</a>
+                            <a href="{{url('/admins')}}">
+                            <li class="subMenu @yield('allAdmins')">
+                                همه مدیران
                             </li>
-                            <li class="subMenu">
-                                <a>مدیر جدید</a>
+                            </a>
+                            <a href="{{url('/createAdmin')}}">
+                            <li class="subMenu @yield('createAdmin')">
+                                مدیر جدید
                             </li>
-                            <li class="subMenu">
-                                <a>پروفایل من</a>
+                            </a>
+                            <a href="{{url('/profile')}}" >
+                            <li class="subMenu @yield('profile')">
+                                پروفایل من
                             </li>
+                            </a>
                             <li class="subMenu">
                                 <a>نسخه پشتیبانی</a>
                             </li>
@@ -263,11 +278,13 @@
                         </a>
                     </h5>
 
-                    <div id="settingsMenu" class="collapse white-text" role="tabpanel" aria-labelledby="settings">
+                    <div id="settingsMenu" class="collapse white-text @yield('settings')" role="tabpanel" aria-labelledby="settings">
                         <ul>
-                            <li class="subMenu">
-                                <a>تنظیمات سایت</a>
+                            <a href="{{url('/settings')}}">
+                            <li class="subMenu @yield('settingsIndex')">
+                                تنظیمات سایت
                             </li>
+                            </a>
                             <li class="subMenu">
                                 <a>اسلایدر اول</a>
                             </li>
@@ -282,8 +299,8 @@
 
                     {{--============[ Backup Menu of dashboard ]===========--}}
                     <h5 role="tab" class="pt-3" id="backup">
-                        <a class="Sidebar_menu_link" data-parent="#accordion" href="#backup">
-                             پشتیبانی<i class="fa fa-download ml-4" aria-hidden="true"></i>
+                        <a class="Sidebar_menu_link" data-parent="#accordion" href="{{url('backup')}}"><div class="@yield('backup')">
+                                پشتیبانی<i class="fa fa-download ml-4" aria-hidden="true"></i></div>
                         </a>
                     </h5>
                 </div>
