@@ -359,6 +359,7 @@
                     </div>
                 </div>
                 <br>
+                {{--//vbh--}}
                 <div class="row mt-5">
                     <div class="col-12 text-center">
                         <button class="showAllHotels">هتل های بیشتر</button>
