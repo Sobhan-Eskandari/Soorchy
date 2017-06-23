@@ -173,3 +173,7 @@ Route::get('/site/profile/password', function (){
 Route::get('/site/profile/edit', function (){
     return view('site.profile.edit');
 });
+
+Route::get('/site/profile/reserves', function (){
+    return view('site.profile.reserves');
+});

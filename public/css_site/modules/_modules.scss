@@ -284,3 +284,31 @@
   border-top-right-radius: 9px !important;
   border-bottom-right-radius: 9px !important;
 }
+
+/* ============[ Profile Page ]=========== */
+.m-reserveTable{
+  color: white;
+  width: 100%;
+  border: none;
+  th{
+    background-color: #4f6c87;
+    border: none;
+    font-weight: $font-weight--medium;
+    font-size: 13px;
+    text-align: center;
+  }
+  td{
+    background-color: $khakestarie-roshan;
+    color: $sormeie-tire;
+    border: none;
+  }
+  tr,td{
+    padding:10px;
+  }
+}
+.m-tableFooter{
+  font-size: 14px;
+  color: $sormeie-tire;
+  background-color: $khakestarie-roshan;
+  padding: 5px;
+}

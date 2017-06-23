@@ -90,6 +90,9 @@ a {
   right: 0;
   top: 5px; }
 
+.l-outerLine {
+  border: 1px solid lightslategrey; }
+
 .header-logo {
   width: 130px;
   height: 50px; }
@@ -322,6 +325,30 @@ a {
 .prevBtn {
   border-top-right-radius: 9px !important;
   border-bottom-right-radius: 9px !important; }
+
+/* ============[ Profile Page ]=========== */
+.m-reserveTable {
+  color: white;
+  width: 100%;
+  border: none; }
+  .m-reserveTable th {
+    background-color: #4f6c87;
+    border: none;
+    font-weight: 400;
+    font-size: 13px;
+    text-align: center; }
+  .m-reserveTable td {
+    background-color: #f8f8f8;
+    color: #092d4f;
+    border: none; }
+  .m-reserveTable tr, .m-reserveTable td {
+    padding: 10px; }
+
+.m-tableFooter {
+  font-size: 14px;
+  color: #092d4f;
+  background-color: #f8f8f8;
+  padding: 5px; }
 
 .m-btn-flat:hover {
   -webkit-filter: brightness(80%); }

@@ -22,7 +22,7 @@
     <div class="hotel-trasPlaceHolder">
         <div class="row downCard_info">
             <div class="col-12 px-0">
-                <button class="joziateBishtarBtn">جزئیات بیشتر</button>
+                <button class="joziateBishtarBtn"><a href="/"> جزئیات بیشتر</a></button>
             </div>
         </div>
     </div>

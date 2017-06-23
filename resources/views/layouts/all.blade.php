@@ -467,10 +467,10 @@
 <script src="{{ asset('Hi_Framework/css/Animation/Other Libraries/Waves/waves.min.js') }}"></script>
 <script src="{{ asset('Hi_Framework/css/Animation/Other Libraries/Animate/dropdownAnim.js') }}"></script>
 <script src="{{ asset('Hi_Framework/javascript/Carousel/Other Libraries/Flicklity/flickity.pkgd.min.js') }}"></script>
-<script src="{{ asset('js/SizeDetector.js') }}"></script>
 @yield('js_resources')
 <script src="{{ asset('Hi_Framework/components/Dropdown/Other Libraries/bootstrap-select/bootstrap-select.js') }}"></script>
 <script src="{{ asset('js/application.js') }}"></script>
+<script src="{{ asset('js/application_site.js') }}"></script>
 
 
 

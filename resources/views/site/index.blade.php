@@ -18,9 +18,8 @@
     <!-- Font Awesome -->
     <link rel="stylesheet" href="{{ asset('Resources/css/Font/font-awesome.min.css') }}">
 
-    <!-- Slider -->
-    {{--<link rel="stylesheet" href="{{ asset('Resources/css/Flickity/flickity.min.css') }}">--}}
-
+    <!-- Hi_Frameworkwork Styles -->
+    <link rel="stylesheet" href="{{ asset('Hi_Framework/dist/Hi_Framework.css') }}">
 </head>
 
 <body>
@@ -241,6 +240,7 @@
                 <hr class="infoUnderline">
                 <br>
                 <div class="row mt-5">
+                    @for($i = 0; $i < 4; $i++)
                     <div class="col-md-3 px-4 col-12">
                         @component('components_site.hotel-card')
 
@@ -270,93 +270,7 @@
 
                         @endcomponent
                     </div>
-                    <div class="col-md-3 px-4 col-12">
-                        @component('components_site.hotel-card')
-
-                            @slot('card_title')
-                                ستارگان
-                            @endslot
-
-                            @slot('card_location')
-                                رشت
-                            @endslot
-
-                            @slot('card_offPercent')
-                                ۲۲
-                            @endslot
-
-                            @slot('card_fromCost')
-                                ۲۲۲۰۰۰
-                            @endslot
-
-                            @slot('card_toCost')
-                                ۱۸۵۰۰۰
-                            @endslot
-
-                            @slot('card_Count')
-                                ۳ شب
-                            @endslot
-
-                        @endcomponent
-                    </div>
-                    <div class="col-md-3 px-4 col-12">
-                        @component('components_site.hotel-card')
-
-                            @slot('card_title')
-                                ستارگان
-                            @endslot
-
-                            @slot('card_location')
-                                رشت
-                            @endslot
-
-                            @slot('card_offPercent')
-                                ۲۲
-                            @endslot
-
-                            @slot('card_fromCost')
-                                ۲۲۲۰۰۰
-                            @endslot
-
-                            @slot('card_toCost')
-                                ۱۸۵۰۰۰
-                            @endslot
-
-                            @slot('card_Count')
-                                ۳ شب
-                            @endslot
-
-                        @endcomponent
-                    </div>
-                    <div class="col-md-3 px-4 col-12">
-                        @component('components_site.hotel-card')
-
-                            @slot('card_title')
-                                ستارگان
-                            @endslot
-
-                            @slot('card_location')
-                                رشت
-                            @endslot
-
-                            @slot('card_offPercent')
-                                ۲۲
-                            @endslot
-
-                            @slot('card_fromCost')
-                                ۲۲۲۰۰۰
-                            @endslot
-
-                            @slot('card_toCost')
-                                ۱۸۵۰۰۰
-                            @endslot
-
-                            @slot('card_Count')
-                                ۳ شب
-                            @endslot
-
-                        @endcomponent
-                    </div>
+                    @endfor
                 </div>
                 <br>
                 {{--//vbh--}}
@@ -371,7 +285,7 @@
 </section>
 
 {{--=========[ Transportation Section ]======== --}}
-<section class="InfoSection">
+<section class="InfoSection grey lighten-3">
     <div class="container">
         <div class="row pt-5">
             <div class="col-12 text-center">
@@ -380,18 +294,38 @@
 
                 <br>
                 <div class="row mt-5">
-                    <div class="col-md-3 px-4 col-12">
-                        @component('components_site.transport-card')@endcomponent
-                    </div>
-                    <div class="col-md-3 px-4 col-12">
-                        @component('components_site.transport-card')@endcomponent
-                    </div>
-                    <div class="col-md-3 px-4 col-12">
-                        @component('components_site.transport-card')@endcomponent
-                    </div>
-                    <div class="col-md-3 px-4 col-12">
-                        @component('components_site.transport-card')@endcomponent
-                    </div>
+                    @for($i = 0; $i < 4; $i++)
+                        <div class="col-md-3 px-4 col-12">
+                            @component('components_site.hotel-card')
+
+                                @slot('card_title')
+                                    ترمینال گیتی پیما
+                                @endslot
+
+                                @slot('card_offPercent')
+                                    ۲۲
+                                @endslot
+
+                                @slot('card_location')
+                                    رشت
+                                @endslot
+
+                                @slot('card_fromCost')
+                                    ۲۲۲۰۰۰
+                                @endslot
+
+                                @slot('card_toCost')
+                                    ۱۸۵۰۰۰
+                                @endslot
+
+                                @slot('card_Count')
+                                    ۳ نفر
+                                @endslot
+
+                            @endcomponent
+
+                        </div>
+                    @endfor
                 </div>
                 <br>
                 <div class="row mt-5">

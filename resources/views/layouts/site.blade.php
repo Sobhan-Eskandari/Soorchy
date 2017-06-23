@@ -349,6 +349,7 @@
 @yield('js_resources')
 <script src="{{ asset('Hi_Framework/components/Dropdown/Other Libraries/bootstrap-select/bootstrap-select.js') }}"></script>
 <script src="{{ asset('js/application.js') }}"></script>
+<script src="{{ asset('js/application_site.js') }}"></script>
 
 
 {{--on pages we wanna user bootstrap-select the following should be included--}}
