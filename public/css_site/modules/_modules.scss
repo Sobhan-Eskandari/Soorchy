@@ -63,7 +63,20 @@
 .m-offpercentLine{
   text-decoration: line-through;
 }
-
+.m-downArrow {
+  margin-top: 40px;
+  div {
+    margin: auto;
+    width: 40px;
+    height: 40px;
+    font-size: 40px;
+    line-height: 40px;
+    transform-origin: 50% 50%;
+    i {
+      color: $grassyGreen;
+    }
+  }
+}
 
 //----------- [ Borders and Lines Style ] -----------
 .m-halfLine{
@@ -243,11 +256,22 @@
   border: 1px solid $sormeie;
   padding: 10px 30px;
 }
+.m-round-input{
+  border-radius: 25px;
+  border: 1px solid $sormeie;
+  padding: 5px 10px;
+  width: 100%;
+}
 .m-simple-input{
   background-color: transparent;
   border: none;
   border-radius: 0;
   border-bottom: 1px solid $sormeie;
+  width: 100%;
+}
+
+.m-simple-input:focus{
+  outline: none;
 }
 
 .m-profileAvatar{

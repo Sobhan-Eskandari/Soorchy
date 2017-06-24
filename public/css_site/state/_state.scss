@@ -17,6 +17,11 @@
   background-color: transparent;
   border-bottom: 1px solid $sabz;
 }
+.m-round-input:focus{
+  background-color: transparent;
+  border: 1px solid $sabz;
+  outline: none;
+}
 .m-btn-tranparent:focus{
   background-color: $sormeie;
   color: white;

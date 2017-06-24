@@ -17,6 +17,18 @@
 .l-profile-imageHeader{
   height: 50% !important;
 }
+.l-contactus-imageHeader{
+  height: 550px !important;
+  background: url("../images_site/pic-contact us.png") !important;
+  background-size: 100% 100% !important;
+  background-repeat: no-repeat !important;
+}
+.l-aboutus-imageHeader{
+  height: 550px !important;
+  background: url("../images_site/pic-about us.png") !important;
+  background-size: cover;
+}
+
 .l-cities{
   background: url("../../public/images_site/blur.jpg");
   background-size: cover;
@@ -29,8 +41,11 @@
   border-bottom-left-radius: 5px;
   border-bottom-right-radius: 5px;
 }
+.l-autoWidth{
+  width:  auto !important;
+}
 .l-autoHeight{
-  height:  auto !important;
+  width:  auto !important;
 }
 .l-stars{
   position: absolute;

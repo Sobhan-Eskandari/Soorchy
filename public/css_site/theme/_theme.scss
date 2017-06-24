@@ -28,6 +28,31 @@
 .khakestari-bc-theme{
   background-color: $khakestarie-roshan !important;
 }
+
+//----------- [ Typography Style ] -----------
+.dinar-title{
+  font-family: 'Dinar_medium' !important;
+  color: $sormeie-tire;
+}
+.dinar-title-thin{
+  font-family: 'Dinar_light' !important;
+}
+
+.frab-title{
+  font-family: 'Frabk' !important;
+}
+.paragraph-lineHeight{
+  line-height: 40px;
+}
+
+.thin-title{
+  font-weight: $font-weight--thin !important;
+}
+.medium-title{
+  font-weight: $font-weight--medium !important;
+}
+
+//----------- [ Line Style ] -----------
 .line-theme{
   border-top: 1px solid $tosi-roshan;
   margin-top: 10px;
@@ -35,6 +60,11 @@
 }
 .dottedLine-theme{
   border-top: 3px dotted $sormeie;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.green-line-theme{
+  border-top: 1px solid $grassyGreen;
   margin-top: 10px;
   margin-bottom: 10px;
 }
@@ -50,14 +80,7 @@
   border: 1px solid $sormeie;
 }
 
-.dinar-title{
-  font-family: 'Dinar_medium' !important;
-  color: $sormeie-tire;
-}
 
-.frab-title{
-  font-family: 'Frabk' !important;
-}
 
 .terminal-info{
   margin-top: 20px;

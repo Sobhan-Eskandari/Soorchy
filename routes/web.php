@@ -179,8 +179,20 @@ Route::get('/site/profile/reserves', function (){
 });
 
 Route::get('/site/factor/terminal', function (){
-    return view('site.factor_terminal');
+    return view('site..factor.terminal');
+});
+Route::get('/site/factor/package', function (){
+    return view('site.factor.package');
 });
 Route::get('/site/factor/hotel', function (){
-    return view('site.factor_hotel');
+    return view('site.factor.hotel');
+});
+Route::get('/site/factor/specs', function (){
+    return view('site.factor.specifications');
+});
+Route::get('/site/aboutus', function (){
+    return view('site.aboutus');
+});
+Route::get('/site/contactus', function (){
+    return view('site.contactus');
 });
