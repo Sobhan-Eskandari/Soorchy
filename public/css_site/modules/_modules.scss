@@ -63,7 +63,26 @@
 .m-offpercentLine{
   text-decoration: line-through;
 }
-//------ Costs Filter ------
+
+
+//----------- [ Borders and Lines Style ] -----------
+.m-halfLine{
+  border-top: 1px solid lightslategrey;
+  width: 40%;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.m-fullLine{
+  border-top: 1px solid lightslategrey;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.m-doubleSideBorder{
+  border-right: 1px solid lightslategrey;
+  border-left: 1px solid lightslategrey;
+}
+
+//----------- [ Costs Filter ] -----------
 .noUi-horizontal .noUi-handle {
   width: 22px !important;
   height: 22px !important;
@@ -109,7 +128,7 @@
   margin: auto;
 }
 
-//------ Gallery of images ------
+//----------- [ Gallery of Images ] -----------
 .gallery{
   /* external css: flickity.css */
 
@@ -159,7 +178,7 @@
 
 }
 
-//------ Slider of famous Hotels ------
+//----------- [ Slider of Famous Hotels ] -----------
 .city-carousel{
   padding-top: 30px;
   padding-bottom: 30px;

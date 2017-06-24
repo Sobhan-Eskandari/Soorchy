@@ -177,3 +177,10 @@ Route::get('/site/profile/edit', function (){
 Route::get('/site/profile/reserves', function (){
     return view('site.profile.reserves');
 });
+
+Route::get('/site/factor/terminal', function (){
+    return view('site.factor_terminal');
+});
+Route::get('/site/factor/hotel', function (){
+    return view('site.factor_hotel');
+});

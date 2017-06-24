@@ -93,6 +93,9 @@ a {
 .l-outerLine {
   border: 1px solid lightslategrey; }
 
+.l-autoMargin {
+  margin: auto; }
+
 .header-logo {
   width: 130px;
   height: 50px; }
@@ -149,6 +152,21 @@ a {
 
 .m-offpercentLine {
   text-decoration: line-through; }
+
+.m-halfLine {
+  border-top: 1px solid lightslategrey;
+  width: 40%;
+  margin-top: 5px;
+  margin-bottom: 5px; }
+
+.m-fullLine {
+  border-top: 1px solid lightslategrey;
+  margin-top: 5px;
+  margin-bottom: 5px; }
+
+.m-doubleSideBorder {
+  border-right: 1px solid lightslategrey;
+  border-left: 1px solid lightslategrey; }
 
 .noUi-horizontal .noUi-handle {
   width: 22px !important;
@@ -414,6 +432,9 @@ button:focus, a:focus {
 
 .borderBottom-theme {
   border-bottom: 1px solid #8b8b8b; }
+
+.borderRight-theme {
+  border-right: 1px solid #8b8b8b; }
 
 .border-theme {
   border: 1px solid #082845; }

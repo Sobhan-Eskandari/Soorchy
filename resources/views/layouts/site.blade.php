@@ -92,7 +92,7 @@
     </div>
 </div>
 
-<section class="Footer">
+<section class="Footer mt-5">
     <div class="container-fluid px-0" style="direction: ltr">
         <div class="Footer">
             <div class="FooterPlaceholder mx-0 row">
