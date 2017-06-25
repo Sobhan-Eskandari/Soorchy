@@ -110,6 +110,38 @@
 
     @endfor
 
+    @component('components_site.list_card')
+
+        @slot('title')
+            ترمینال گیتی پیما
+        @endslot
+
+        @slot('address')
+            رشت سبزه میدان پیرسرا
+        @endslot
+
+        @slot('route')
+            شیراز- تهران
+        @endslot
+
+        @slot('full_cost')
+            ۲۲۰۰۰۰
+        @endslot
+
+        @slot('offed_cost')
+            ۱۹۵۰۰۰
+        @endslot
+
+        @slot('passengers_count')
+            ۲
+        @endslot
+
+        @slot('off_percent')
+            ۲۲
+        @endslot
+
+    @endcomponent
+
 
 @endsection
 

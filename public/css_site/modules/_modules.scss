@@ -10,6 +10,22 @@
   background-color: white;
 }
 
+.joziateBishtarBtn{
+  border: 2px solid $sormeie;
+  border-radius: 20px;
+  background-color: transparent;
+  padding: 5px 10px;
+  color: $sormeie;
+  font-size: 12px;
+  cursor: pointer;
+  transition: background-color,color 0.5s ease;
+
+  &:hover{
+    background-color: $sormeie;
+    color: white;
+  }
+}
+
 .m-btn-flat{
   padding: 5px 20px;
   transition: all 0.3s ease;

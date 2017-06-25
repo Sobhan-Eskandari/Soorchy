@@ -107,8 +107,72 @@
 
             </div>
         </div>
-
     @endfor
+
+    @component('components_site.list_card')
+
+        @slot('title')
+            هتل ستارگان
+        @endslot
+
+        @slot('address')
+            رشت سبزه میدان پیرسرا
+        @endslot
+
+        @slot('route')
+
+        @endslot
+
+        @slot('full_cost')
+            ۲۲۰۰۰۰
+        @endslot
+
+        @slot('offed_cost')
+            ۱۹۵۰۰۰
+        @endslot
+
+        @slot('passengers_count')
+۲
+        @endslot
+
+        @slot('off_percent')
+۲۲
+        @endslot
+
+    @endcomponent
+
+    @component('components_site.list_card')
+
+        @slot('title')
+            هتل ستارگان
+        @endslot
+
+        @slot('address')
+            رشت سبزه میدان پیرسرا
+        @endslot
+
+        @slot('route')
+
+        @endslot
+
+        @slot('full_cost')
+            ۲۲۰۰۰۰
+        @endslot
+
+        @slot('offed_cost')
+            ۱۹۵۰۰۰
+        @endslot
+
+        @slot('passengers_count')
+            ۲
+        @endslot
+
+        @slot('off_percent')
+            ۲۲
+        @endslot
+
+    @endcomponent
+
 
 
 @endsection

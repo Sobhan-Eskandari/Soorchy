@@ -132,14 +132,14 @@
         <div class="col-lg-9 col-md-8">
             <div class="row">
                 {{----------- [ Top filter ] -----------}}
-                <div class="col-lg-9 col-md-10 mb-4 col-10">
+                <div class="col-lg-9 col-md-12 mb-4 col-12">
                     <div class="m-card py-2">
                         <div class="container-fluid">
                             <div class="row">
                                 <div class="col-12 col-md-12 col-lg-4">
                                     <p class="my-2">مرتب سازی بر اساس</p>
                                 </div>
-                                <div class="col-6 col-md-5 col-lg-4 px-0">
+                                <div class="col-6 col-md-6 col-lg-4 px-0">
                                     <div class="Topbar_dropdown dropdown">
                                         <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                             پر فروش ترین
@@ -151,7 +151,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-6 col-md-5 col-lg-4 px-0">
+                                <div class="col-6 col-md-6 col-lg-4 px-0">
                                     <div class="Topbar_dropdown dropdown">
                                         <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                             میزان تخفیف
@@ -170,7 +170,7 @@
                 </div>
 
                 {{----------- [ Switch btween grid and list ] -----------}}
-                <div class="col-lg-2 pull-lg-1 col-md-2 col-2">
+                <div class="col-lg-2 pull-lg-0 col-md-2 col-2 hidden-md-down">
                     <div class="row mt-3">
                         <div class="col-lg-5 pull-lg-3 col-md-6 px-2 px-lg-3 col-6">
                             <img class="img-fluid" src="{{asset('images_site/grid.png')}}">
