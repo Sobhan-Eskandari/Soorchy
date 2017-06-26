@@ -371,3 +371,73 @@
   background-color: $khakestarie-roshan;
   padding: 5px;
 }
+
+
+
+/* ============[ Package Dropdown ]=========== */
+
+.m-package-dropdown{
+  border-radius: 2px;
+
+  #m-dropdown-button{
+    padding: 0;
+    width: 100%;
+    margin-top: auto;
+    margin-bottom: auto;
+    font-weight: bold;
+    border: transparent;
+    color: $sormeie;
+    transition: none;
+    -webkit-box-shadow: none !important;
+    box-shadow:none !important;
+    font-size: 14px;
+    background-color: white;
+    line-height: 50px;
+    border-radius: 2px;
+
+    &:hover{
+      cursor: pointer;
+      color: white;
+      -webkit-filter: brightness(120%);
+    }
+  }
+  .dropdown-toggle{
+    color: $sormeie-tire !important;
+    border-radius: 0px;
+    outline: none;
+    padding: 10px 10px;
+  }
+  .dropdown-toggle::after{
+    font-family: "FontAwesome";
+    content: "\f078";
+    border: none;
+    color: white !important;
+    float: left;
+    margin-left: 0;
+    background-color: $sormeie-tire;
+    height: 50px;
+    width: 30px;
+  }
+  .dropdown-item{
+    font-weight: $font-weight--light;
+    font-size: 13px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: black;
+
+    &:active{
+      background-color: transparent !important;
+      outline: none;
+    }
+  }
+  .dropdown-menu{
+    border: transparent;
+  }
+
+  .dropdown-divider{
+    background-color: grey;
+  }
+}
+
+
+

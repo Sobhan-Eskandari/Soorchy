@@ -99,8 +99,11 @@
 <script src="{{ asset('Resources/js/Jquery/jquery-2.2.4.min.js') }}"></script>
 <script src="{{ asset('Resources/js/Bootstrap/tether.min.js') }}"></script>
 <script src="{{ asset('Resources/js/Bootstrap/bootstrap.min.js') }}"></script>
+<script src="{{ asset('js/wNumb.js') }}"></script>
+<script src="{{ asset('Hi_Framework/components/Slider/Other Libraries/noUI/nouislider.min.js') }}"></script>
 <script src="{{ asset('Hi_Framework/css/Animation/Other Libraries/Waves/waves.min.js') }}"></script>
 <script src="{{ asset('Hi_Framework/css/Animation/Other Libraries/Animate/dropdownAnim.js') }}"></script>
+<script src="{{ asset('Hi_Framework/javascript/Carousel/Other Libraries/Flicklity/flickity.pkgd.min.js') }}"></script>
 @yield('js_resources')
 <script src="{{ asset('Hi_Framework/components/Dropdown/Other Libraries/bootstrap-select/bootstrap-select.js') }}"></script>
 <script src="{{ asset('js/application.js') }}"></script>

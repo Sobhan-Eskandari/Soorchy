@@ -196,3 +196,7 @@ Route::get('/site/aboutus', function (){
 Route::get('/site/contactus', function (){
     return view('site.contactus');
 });
+
+Route::get('/site/createPackage', function (){
+    return view('site.create_package');
+});
