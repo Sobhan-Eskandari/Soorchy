@@ -200,3 +200,7 @@ Route::get('/site/contactus', function (){
 Route::get('/site/createPackage', function (){
     return view('site.create_package');
 });
+
+Route::get('/site/fastSearch', function (){
+    return view('site.fast_search');
+});
